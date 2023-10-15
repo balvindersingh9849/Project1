@@ -1,0 +1,91 @@
+@import url("../css/styles.css");
+
+
+/* the styles for the carousel */
+.button_panel	{
+	height: 125px;
+	padding: 50px 15px;
+	float: left;
+}
+.button_panel img {
+	width: 25px;
+	height: 25px;
+}
+#display_panel {
+	width: 300px;
+	overflow: hidden;
+	float: left;			
+	height: 125px;
+}
+#image_list {
+	position: relative;	
+	left: 0px;
+    width: 900px;
+    list-style: none;  
+}
+#image_list li	{
+	float: left;
+	width: 100px;
+}
+#image_list li img	{
+	width: 95px;
+	
+}
+
+
+
+article {
+  background-color: white;
+  float: left;
+  margin: 0.5%;
+  padding: 0.5%;  
+  text-align: center;
+  width: 28%; 
+  box-shadow: 0 14px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Style for image element contained within the main article element */
+
+main article img {
+  /* border: solid 0.1em #1D1D1C; */
+  margin-left: 1px;
+  margin-right: 0.1px;
+  width: 100;
+}
+
+/* Style for paragraph element contained within the main article element */
+
+main article p {
+  color: #000000;
+  margin-top: 2%;
+  /* padding: 1%; */
+  text-align: left;
+
+}
+
+/* Style for unordered list element contained within the main article element */
+
+main article ul {
+  text-align: left;
+}
+
+main h1{
+  text-align: center;
+}
+
+.video {
+  text-align: center;
+  padding: 1em;
+  }
+
+  video {
+  border: 0.2em solid #FF6600;
+  height: auto;
+  max-width: 100%;
+  }
+
+  .sound {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }

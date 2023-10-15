@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- This webpage was designed by Balvinder Singh Sardar, 11th DEC,2022  -->
+<html lang="en">
+<head>
+	<title>Opera_Mixers</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/contact.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="jquery.validate.min.js"></script>
+	<script src="additional-methods.min.js"></script>	
+	<script src="contact.js"></script>
+</head>
+
+<body>
+	<!-- container div to wrap all the content into one container -->
+	<div id="container">
+		<!-- header includes the image and h2 text  -->
+
+		<!-- a navigtion bar which direct the user to other webpages -->
+		<nav>
+			<a href="index.html"><img class="nav-img" src="images/logo.png" alt=";ogo"></a>
+
+			<ul>
+				<li><a href="index.html">Home</a>&nbsp; &nbsp; </li>
+				<li><a href="about.html">About</a>&nbsp; &nbsp; </li>
+				<li><a href="team.html">Our Team</a>&nbsp; &nbsp; </li>
+				<li><a href="products.html">Product</a>&nbsp; &nbsp; </li>
+				<li><a href="specials.html">Specials</a>&nbsp; &nbsp; </li>
+				<li><a href="training.html">Training</a>&nbsp; &nbsp; </li>
+				<li> <a href="media.html">Media</a>&nbsp; &nbsp; </li>
+				<li><a href="contact.html">Contact Us</a>&nbsp; &nbsp; </li>
+			</ul>
+			<select id="select" onchange="window.open(this.options[this.selectedIndex].value);">
+				<option>Reports</option>
+				<option value="MIXERS.html">mixers</option>
+				<option value="Inventory.html">Inventory</option>
+				<option value="customerOrder.html">Customer Order</option>
+				<option value="customerOrderTotals.html">Customer Order Totals</option>
+			</select>
+		</nav>
+		<!-- main section starts here, which includes all the content which will display on the page -->
+		<main>
+			<fieldset>
+				<legend>Any Questions or quries?</legend>
+			<form  action="response.html" method="get" name="contact_form" id="contact_form">
+				<!-- Start Form -->
+				<div class="row">
+					<div class="col-1">
+						<label for="fName">First Name:</label>
+					</div>
+					<div class="col-2">
+						<input type="text" name="fName" id="chefName" placeholder="Enter your first name.." 
+							autofocus>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<label for="lName">Last Name:</label>
+					</div>
+					<div class="col-2">
+						<input type="text" name="lName" id="lName" placeholder="Enter your last name.." >
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<label for="DOB">DOB:</label>
+					</div>
+					<div class="col-2">
+						<input type="date" name="DOB" id="DOB" size="40" >
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<label for="email">Email:</label>
+					</div>
+					<div class="col-2">
+						<input type="email" name="email" id="email" size="20" placeholder="Enter your email.." required>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<label for="phone">Phone:</label>
+					</div>
+					<div class="col-2">
+						<input type="tel" id="phone" name="phone" placeholder="Enter your phone number..">
+					</div>
+				</div>
+
+
+
+				<div class="row">
+					<div class="col-1">
+						<label for="reference">you are ?:</label>
+					</div>
+					<div class="col-2">
+						<select name="reference" id="reference">
+							<option value="ad">Customer</option>
+							<option value="friend">Business</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<label for="information">Describe further</label>
+					</div>
+					<div class="col-2">
+						<textarea id="information" name="information" rows="3" cols="25"></textarea>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<p>what do you want to here from us</p>
+					</div>
+					<div class="col-2">
+						<ul>
+							<li><input type="checkbox" name="Offers" id="Offers" value="Offers" class="Offers">Offers</li>
+							<li><input type="checkbox" name="New_listing" id="New_listing" value="New_listing" class="chkbx">New listing</li>
+							<li><input type="checkbox" name="None" id="None" value="None" class="chkbx">None</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<p>Do you need upadtes over mail</p>
+					</div>
+					<div class="col-2">
+						<ul>
+							<li><input type="radio" name="Yes" id="Yes" value="yes" class="radio">Yes</li>
+							<li><input type="radio" name="No" id="No" value="No" class="radio">No</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-1">
+						<button>
+							<input type="submit" id="submit" value="Submit" class="btn">
+						</button>
+					</div>
+					<div class="col-2">
+						<button>
+							<input type="reset" id="reset" value="Reset Form" class="btn">
+						</button>
+					</div>
+				</div>
+
+			</form>
+</fieldset>
+
+		</main>
+		<!-- main ends-->
+
+		<!-- footer section which includes the contact link -->
+		<footer>
+			&copy; Copyright 2099. All Rights Reserved.<br>
+			<a href="mailto:Opera_Mixers@opera_mixers.com">Requestinformation</a> <br>
+			Balvinder Singh Sardar &nbsp; &nbsp; C_0877495<br>
+		</footer>
+	</div>
+</body>

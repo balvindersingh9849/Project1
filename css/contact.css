@@ -1,0 +1,119 @@
+@import url("../css/styles.css");
+input,
+select,
+textarea {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.dec-bottom-margin {
+  margin-top: -30px;
+}
+
+/* Style rule for label element */
+
+label {
+  display: block;
+}
+
+/* Style rule for unordered list within a form */
+
+form ul {
+  list-style-type: none;
+    float: left;
+}
+form{
+  text-align: center;
+}
+fieldset{
+  
+  color: #5d6cd8;
+  box-shadow: 12px 12px 12px #48395D;
+}
+
+legend{
+text-emphasis: none;
+text-align: center;
+font-size: 40px;
+}
+
+/* Style rule for chkbx class */
+
+.chkbx {
+  display: inline-block;
+}
+  /* input[type=text] {
+    transition: width 0.9s ease-in-out
+  }
+
+  input[type=text]:focus {
+    width: 35%;
+  } */
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #5d6cd8;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+}
+
+.col-1 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-2 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+
+  background-image: url("images/contact.jpg");
+  opacity:90;
+  
+}
+
+body :hover{
+
+  opacity:19;
+  
+}
+
+/* main:hover {
+  opacity: 10;
+  
+} */
+
+main{
+  /* background-image: url("contact.jpg"); */
+  display: flex;
+  /* background-color: aquamarine; */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  background-color: aqua;
+}
+
+button{
+  color: aqua;
+  background-color: #ffffff;
+  border: none;
+}
+
+

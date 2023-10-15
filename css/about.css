@@ -1,0 +1,277 @@
+/* Name, Date */
+
+@import url("../css/styles.css");
+body {
+  background-color: #F7F7F7;
+  background-image: url("backgrnd.jpg");
+  opacity: 90;
+  }
+
+  nav {
+    width: 40;
+    height: 40;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25em;
+    font-weight: bold;
+      /*background-color: #303030;  */
+      background-color: #ffffff; 
+    text-align: center;
+    /* padding: 15px;
+    margin-top: 10px;
+
+    margin-bottom: 10px; */
+   /* border-radius: 20px;*/
+
+    /* border-top: 5px solid #303030;
+    border-bottom: 5px solid #303030; */
+
+      box-shadow: 50px 50px 50px #090909;   
+  }
+
+  nav p{
+
+    /* height: 3%;
+    width: 4%; */
+    padding: 3px;
+    float: left;
+    margin-right: 85px;
+    
+  }
+
+  a {
+    color: #000000;
+    text-decoration: dashed;
+  }
+
+  div.hide {
+    display: none;
+  }
+
+.style_list{
+  color: #fd1e1e;
+  text-decoration: underline;
+
+}
+
+  footer {
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .heading_style_1{
+    color:rgb(191, 26, 125);
+  }
+
+  .heading_style_2{
+    color:rgb(25, 80, 248);
+  }
+
+
+
+  .desktop {
+    display: none;
+
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .four {
+    background-color:  #d6e3db;
+  }
+  
+  .four h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0;
+  }
+  
+  .four p {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  aside {
+    color: #FFFFFF;
+    font-style: italic;
+    text-align: center;
+    background-color: black;
+    border-radius:  1em 5em 5em;
+    box-shadow: 1em 1em 1em #223528;
+    padding: 1em;
+    margin: 1em;
+  }
+  .four ul {
+    text-align: left;
+    list-style: none;
+    margin: 10px 0;
+  }
+  
+
+  
+  .five {
+    background-color: rgb(250, 237, 185);
+  }
+
+  .show {
+
+    color: rgb(76, 48, 255);
+  }
+  
+  .five h3 {
+    background-color: black;
+    color: white;
+    /* transform: skew(10deg); */
+    margin: 10px 0;
+    padding: 0 10px;
+  }
+  
+  .five p {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .five .team {
+    font-weight: 400;
+  }
+  
+ 
+  .four,
+  .five {
+    padding: 100px 30px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  /* .nav-img{
+    width: 50%;
+    height: auto;
+  } */
+
+  .about-list {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    padding-bottom: 1rem;
+    flex-direction: column;
+  }
+
+  .about-text > h1 {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+  
+  .about-text {
+    padding: 1rem 2rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+
+
+
+  /* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+@media only screen and (min-width: 660px) {
+ 
+  main {
+    clear: left;
+    margin-top: 4em;
+  }
+
+  /* Style specifies to hide the mobile class */
+  .mobile {
+    display: none;
+  }
+
+  /* Style specifies to display the desktop class */
+  .desktop {
+    display: none;
+  }
+
+
+  /* Style specifies a display, float, and padding for the equip class */
+  .equip {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+  }
+
+  /* Style specifies a display, list-style-position, and bottom margin for the items class */
+  .items {
+    display: block;
+    list-style-position: inside;
+    margin-bottom: 5em;
+  }
+
+  /* Style specifies to display the tablet class */
+  .tablet {
+    display: inline;
+  }
+
+  /* Style specifies a font weight and top margin for description list terms */
+  dt {
+    font-weight: bold;
+    margin-top: 0.7em;
+  }
+}
+/* 
+/* Media query for desktop viewport targets screens with a minimum width of 830px. */
+@media only screen and (min-width: 830px) {
+  /* Style specifies a width for container */
+  #container {
+    width: 100%;
+  }
+
+
+  /* Style specifies a bottom margin for the items class */
+  .items {
+    margin-bottom: 6em;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: inline;
+    font-size: 1em;
+
+  }
+
+  .desktop h1{
+    text-align: center;
+    color: #fd1e1e;
+  }
+
+
+  /* Style specifies a gradient for the body element */
+  body {
+    background: -moz-lineargradient(#1C344D, #1C344D); /* Firefox */
+    background: -o-linear-gradient(#1C344D, #1C344D); /* Opera */
+    background: -webkit-lineargradient(#1C344D, #1C344D); /* Chrome, Safari */
+    background: linear-gradient(#1C344D, #1C344D);
+    background-attachment: fixed;
+  }
+}
+
+ 

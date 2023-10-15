@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- This webpage was designed by Balvinder Singh Sardar, 11th DEC,2022  -->
+<html lang="en">
+<head>
+	<title>Opera_Mixers</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="flickr.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="transition.js"></script>
+</head>
+
+<body>
+	<!-- container div to wrap all the content into one container -->
+	<div id="container">
+		<nav>
+			<a href="index.html"><img class="nav-img" src="images/logo.png" alt=";ogo"></a>
+
+			<ul>
+				<li><a href="index.html">Home</a>&nbsp; &nbsp; </li>
+				<li><a href="about.html">About</a>&nbsp; &nbsp; </li>
+				<li><a href="team.html">Our Team</a>&nbsp; &nbsp; </li>
+				<li><a href="products.html">Product</a>&nbsp; &nbsp; </li>
+				<li><a href="specials.html">Specials</a>&nbsp; &nbsp; </li>
+				<li><a href="training.html">Training</a>&nbsp; &nbsp; </li>
+				<li> <a href="media.html">Media</a>&nbsp; &nbsp; </li>
+				<li><a href="contact.html">Contact Us</a>&nbsp; &nbsp; </li>
+			</ul>
+			<select id="select" onchange="window.open(this.options[this.selectedIndex].value);">
+				<option>Reports</option>
+				<option value="MIXERS.html">mixers</option>
+				<option value="Inventory.html">Inventory</option>
+				<option value="customerOrder.html">Customer Order</option>
+				<option value="customerOrderTotals.html">Customer Order Totals</option>
+			</select>
+		</nav>
+		<!-- main section starts here, which includes all the content which will display on the page -->
+		<main>
+			<div class="banner">
+				<img class="bannerImage" src="images/banner.jpg" alt="Company Banner Image" width="240" height="100">
+			</div>
+		</main>
+		<main class="indexcontent">
+
+			<h1 class="heading_style_1">Cooking Made Simple and Easy with Opera Mixers</h1>
+			<p class="transition">Opera mixer grinders can be an ideal kitchen companion for every kitchen.
+				They come with advanced features that will help you prepare different dishes faster and easier.
+				opera mixer grinders come with stainless steel jars and a juicer jar.
+				The stainless steel jars can be used for grinding spices, masalas, dosa batter and coconut
+				chutneys. Some models come with an extractor jar with pusher that ensures fast and complete
+				extraction of juice from fruits. The transparent lids of some these jars will let you keep a
+				check on the ingredients during the grinding process.</p>
+
+
+				<br>
+				<br>
+				<br>
+				<div id="flickr" class="center">
+				<h1>Flickr Search</h1>
+				<h4>You can find all the required information of your products by searching in the flickr</h4>
+				<input type="text" size="30" id="search">
+			<input type="button" value="Search" id="btnSearch">
+			<h3>Flickr Results</h3>
+			<div id="photos"></div>
+			</div>
+
+		</main>
+		<!-- main ends-->
+
+		<!-- footer section which includes the contact link -->
+		<footer>
+			&copy; Copyright 2099. All Rights Reserved.<br>
+			<a href="mailto:Opera_Mixers@opera_mixers.com">Requestinformation</a> <br>
+			Balvinder Singh Sardar &nbsp; &nbsp; C_0877495<br>
+		</footer>
+	</div>
+	<!-- wrapper ends here-->
+</body>
+
+</html>

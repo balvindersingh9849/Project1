@@ -1,0 +1,57 @@
+article {
+  background-color: white;
+  float: left;
+  margin: 0.5%;
+  padding: 0.5%;  
+  text-align: center;
+  width: 28%; 
+  box-shadow: 0 14px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Style for image element contained within the main article element */
+
+main article img {
+  /* border: solid 0.1em #1D1D1C; */
+  margin-left: 1px;
+  margin-right: 0.1px;
+  width: 100;
+}
+
+/* Style for paragraph element contained within the main article element */
+
+main article p {
+  color: #000000;
+  margin-top: 2%;
+  /* padding: 1%; */
+  text-align: left;
+
+}
+
+/* Style for unordered list element contained within the main article element */
+
+main article ul {
+  text-align: left;
+}
+
+main h1{
+  text-align: center;
+}
+
+aside {
+  color: #FFFFFF;
+  font-style: italic;
+  background-color: black;
+  border-radius:  5em 5em 5em;
+  box-shadow: 1em 1em 1em #223528;
+  padding: 1.5em;
+  margin: 1em;
+}
+section.ourstory{
+  background-color: #d6e3db;
+  padding: auto;
+display: inline-block;
+margin-top: 10px;
+box-shadow: 1em 1em 1em #223528;
+margin: 0.5%;
+padding: 0.5%; 
+}
